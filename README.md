@@ -7,7 +7,7 @@ An educational, single-layer development board designed to simplify learning and
 Here is the complete schematic diagram of the EduBoard PIC16. For a high-resolution scalable version, please check the `Docs/` directory.
 
 <div align="center">
-  <img src="images/schematic.png" alt="EduBoard PIC16 Schematic Diagram" width="90%">
+  <img src="Images/Schematic.png" alt="EduBoard PIC16 Schematic Diagram" width="90%">
 </div>
 
 ## 📸 3D Hardware Showcase
