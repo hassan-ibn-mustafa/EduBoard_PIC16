@@ -5,7 +5,7 @@ An educational, single-layer development board designed to simplify learning and
 ## 📸 3D Hardware Showcase
 
 <div align="center">
-  <img src=""Images\PCB_View_Top.png"" alt="PCB Top View" width="48%">
+  <img src="Images\PCB_View_Top.png" alt="PCB Top View" width="48%">
   <img src="Images\PCB_View_Bottom.png" alt="PCB Bottom View" width="48%">
 </div>
 
