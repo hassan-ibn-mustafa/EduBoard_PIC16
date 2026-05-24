@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBoard PIC16 | Hassan M. Hashem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#1c1c1b',
+                            panel: '#32312e',
+                            accent: '#bf3e2c',
+                            accentHover: '#9e3223',
+                            textMain: '#b7b5af',
+                            textMuted: '#707a83'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .glass-panel {
+            background: rgba(50, 49, 46, 0.85);
+            backdrop-filter: blur(10px);
+            border: 1px solid #707a83;
+        }
+    </style>
+</head>
+<body class="bg-brand-bg text-brand-textMain antialiased selection:bg-brand-accent selection:text-white">
+
+    <nav class="fixed w-full z-50 glass-panel border-b-0 border-brand-textMuted/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <img src="Images/logo(DarkMode).png" alt="Hassan Logo" class="h-32 w-auto object-contain">
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#overview" class="hover:text-brand-accent transition px-3 py-2 text-sm font-medium text-brand-textMain">Overview</a>
+                    <a href="#features" class="hover:text-brand-accent transition px-3 py-2 text-sm font-medium text-brand-textMain">Specs</a>
+                    <a href="#interactive-bom" class="hover:text-brand-accent transition px-3 py-2 text-sm font-medium text-brand-textMain">Interactive View</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="overview" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+        <div class="flex-1 space-y-8">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-panel border border-brand-textMuted text-brand-accent text-sm font-semibold">
+                <span class="relative flex h-2 w-2">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-accent opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-accent"></span>
+                </span>
+                Educational Hardware
+            </div>
+            <h1 class="text-5xl lg:text-6xl font-bold text-white leading-tight">
+                EduBoard PIC16 <br/>
+                <span class="text-brand-accent">Trainer Kit</span>
+            </h1>
+            <p class="text-lg text-brand-textMain max-w-2xl leading-relaxed">
+                A streamlined, single-layer trainer board engineered to simplify learning and prototyping with the PIC16F877A microcontroller. Designed entirely in KiCad for educational purposes, eliminating complexity and focusing on modular jumper-based configurations for students and electronics enthusiasts.
+            </p>
+            <div class="flex gap-4">
+                <a href="#interactive-bom" class="bg-brand-accent hover:bg-brand-accentHover text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2 shadow-lg shadow-brand-accent/20">
+                    <i class="fa-solid fa-layer-group"></i> Explore 3D BOM
+                </a>
+                <a href="https://github.com/hassan-mustafa-hashem" target="_blank" class="bg-brand-panel hover:bg-brand-textMuted/20 text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2 border border-brand-textMuted/50">
+                    <i class="fa-brands fa-github text-xl"></i> View Source
+                </a>
+            </div>
+        </div>
+        
+        <div class="flex-1 w-full grid grid-cols-2 gap-4">
+            <div class="glass-panel p-6 rounded-xl flex flex-col items-center justify-center text-center gap-3 hover:border-brand-accent transition duration-300 group">
+                <i class="fa-solid fa-graduation-cap text-4xl text-brand-textMuted group-hover:text-brand-accent transition"></i>
+                <div>
+                    <h3 class="font-bold text-white">Focus</h3>
+                    <p class="text-sm text-brand-textMain">Educational Training</p>
+                </div>
+            </div>
+            <div class="glass-panel p-6 rounded-xl flex flex-col items-center justify-center text-center gap-3 hover:border-brand-accent transition duration-300 group">
+                <i class="fa-solid fa-microchip text-4xl text-brand-textMuted group-hover:text-brand-accent transition"></i>
+                <div>
+                    <h3 class="font-bold text-white">MCU</h3>
+                    <p class="text-sm text-brand-textMain">PIC16F877A</p>
+                </div>
+            </div>
+            <div class="glass-panel p-6 rounded-xl flex flex-col items-center justify-center text-center gap-3 hover:border-brand-accent transition duration-300 group">
+                <i class="fa-solid fa-bezier-curve text-4xl text-brand-textMuted group-hover:text-brand-accent transition"></i>
+                <div>
+                    <h3 class="font-bold text-white">Design Tool</h3>
+                    <p class="text-sm text-brand-textMain">KiCad EDA</p>
+                </div>
+            </div>
+            <div class="glass-panel p-6 rounded-xl flex flex-col items-center justify-center text-center gap-3 hover:border-brand-accent transition duration-300 group">
+                <i class="fa-solid fa-layer-group text-4xl text-brand-textMuted group-hover:text-brand-accent transition"></i>
+                <div>
+                    <h3 class="font-bold text-white">PCB Type</h3>
+                    <p class="text-sm text-brand-textMain">Single-Layer DIY</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interactive-bom" class="py-20 bg-brand-bg border-y border-brand-textMuted/20 relative">
+        <div class="absolute inset-0 bg-brand-panel/30"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="mb-10 flex flex-col items-center text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Interactive Hardware Explorer</h2>
+                <p class="text-brand-textMain max-w-2xl">
+                    Navigate the physical layout of the board. Hover over the BOM table to highlight component placements, or inspect the custom routing directly.
+                </p>
+            </div>
+            
+            <div class="w-full bg-brand-panel rounded-2xl border border-brand-textMuted/50 overflow-hidden shadow-2xl relative" style="height: 800px;">
+                <div class="absolute top-0 w-full h-10 bg-brand-bg border-b border-brand-textMuted/50 flex items-center px-4 gap-2 z-10">
+                    <div class="flex gap-2">
+                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <div class="mx-auto text-xs font-mono text-brand-textMuted font-semibold bg-black/30 px-3 py-1 rounded">ibom.html - Interactive Viewer</div>
+                </div>
+                <iframe src="ibom.html" class="w-full h-full pt-10 border-0" title="Interactive BOM"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-12 text-center">Hardware Specifications</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="glass-panel p-8 rounded-2xl hover:border-brand-accent transition duration-300 group">
+                <div class="w-12 h-12 bg-brand-bg rounded-xl flex items-center justify-center text-brand-accent text-2xl mb-6 border border-brand-textMuted/30 group-hover:scale-110 transition">
+                    <i class="fa-solid fa-desktop"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Display Peripherals</h3>
+                <p class="text-brand-textMain text-sm">Features a 16x2 Character LCD and a 4-digit 7-segment display multiplexed via 74LS48 decoder for data visualization.</p>
+            </div>
+            <div class="glass-panel p-8 rounded-2xl hover:border-brand-accent transition duration-300 group">
+                <div class="w-12 h-12 bg-brand-bg rounded-xl flex items-center justify-center text-brand-accent text-2xl mb-6 border border-brand-textMuted/30 group-hover:scale-110 transition">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Power Subsystem</h3>
+                <p class="text-brand-textMain text-sm">Onboard LM7805 voltage regulation from a robust DC barrel jack input, with optimized copper pouring for minimal ground noise.</p>
+            </div>
+            <div class="glass-panel p-8 rounded-2xl hover:border-brand-accent transition duration-300 group">
+                <div class="w-12 h-12 bg-brand-bg rounded-xl flex items-center justify-center text-brand-accent text-2xl mb-6 border border-brand-textMuted/30 group-hover:scale-110 transition">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Modular Routing</h3>
+                <p class="text-brand-textMain text-sm">100% jumper-wire configuration via precision female headers, simplifying educational experiments and learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-bg py-10 border-t border-brand-textMuted/30 text-center">
+        <p class="text-brand-textMain">Designed & Developed by <span class="text-white font-semibold">Hassan Mustafa Hashem</span></p>
+        <p class="text-xs text-brand-textMuted mt-2">Faculty of Electronic Engineering - Industrial Electronics & Control</p>
+    </footer>
+
+</body>
+</html>
