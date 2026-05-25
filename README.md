@@ -4,7 +4,7 @@ An educational, single-layer development board designed to simplify learning and
 
 ## 🔗 Live Interactive Preview
     
-🌐 **[Click Here to View Live-Demo_&_Interactive_BOM & Project Website](https://hassan-ibn-mustafa.github.io/NanoCore_328/)**
+🌐 **[Click Here to View Live-Demo_&_Interactive_BOM & Project Website](https://hassan-ibn-mustafa.github.io/EduBoard_PIC16/)**
 
 *Click the badge above to explore the live interactive web deployment and view the full layout directly in your browser!*
 
