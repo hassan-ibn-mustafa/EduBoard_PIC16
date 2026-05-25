@@ -2,12 +2,18 @@
 
 An educational, single-layer development board designed to simplify learning and prototyping with the Microchip PIC16F877A microcontroller. Designed entirely in KiCad, this board eliminates complexity and focuses on a modular, jumper-based routing architecture for students and electronics enthusiasts.
 
+## 🔗 Live Interactive Preview
+    
+🌐 **[Click Here to View Live-Demo_&_Interactive_BOM & Project Website](https://hassan-ibn-mustafa.github.io/EduBoard_PIC16/)**
+
+*Click the badge above to explore the live interactive web deployment and view the full layout directly in your browser!*
+
 ## 🗺️ Circuit Schematic
 
 Here is the complete schematic diagram of the EduBoard PIC16. For a high-resolution scalable version, please check the `Docs/` directory.
 
 <div align="center">
-  <img src="images/schematic.png" alt="EduBoard PIC16 Schematic Diagram" width="90%">
+  <img src="Images/Schematic.png" alt="EduBoard PIC16 Schematic Diagram" width="90%">
 </div>
 
 ## 📸 3D Hardware Showcase
